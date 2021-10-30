@@ -19,7 +19,7 @@ Below, I present some screenshots of the app.
 
 ## Live Demo
 
-Live demo for this project can be found in this [link]().
+Live demo for this project can be found in this [link](https://mai-rizk-stocks-watcher.netlify.app/).
 
 ## Getting Started
 

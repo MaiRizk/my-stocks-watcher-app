@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# My Stocks Watcher App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About
 
-## Available Scripts
+This mobile web application was developed as the Capstone Project for Microverse React-Redux Curriculum Module. It was built upon [Financial Modeling Prep API](https://financialmodelingprep.com/developer/docs/) and the original design idea was created by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio). My task was to check a list of metrics (data stock, in my case) making use of React and Redux. The application allows users to list the Stocks, ETFs, and Funds traded in AMEX, NYSE, and Nasdaq Stock Exchanges and filter their search.
 
-In the project directory, you can run:
+Below, I present some screenshots of the app.
 
-### `yarn start`
+<p align="center">
+<img style="border: 1px solid black;" src="./docs/Capture-1.PNG" width="700">
+<img style="border: 1px solid black;" src="./docs/Capture-2.PNG" width="700">
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Built With
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- HTML, CSS, JavaScript;
+- ReactJS, Redux;
+- Bootstrap, React Stockcharts;
 
-### `yarn test`
+## Live Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Live demo for this project can be found in this [link]().
 
-### `yarn build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run this app running locally,you'll need an API key that you can easily obtain by registering at [https://financialmodelingprep.com/register](https://financialmodelingprep.com/register). You only need a valid email account to register freely. Now, go to the API dashboard and get your newly created API key! Store this token with you, because you'll need it for the next steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. In your terminal, in the folder of your preference, type the following bash command to clone this repository:
 
-### `yarn eject`
+```sh
+git clone git@github.com:MaiRizk/my-stocks-watcher-app.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. Now that you have already cloned the repo run the following commands to get the project up and running:
+```sh
+cd my-stocks-watcher-app
+yarn
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. For the last step of the process, you just need to edit the file `APIKEY.js` in the folder `src/utils/`. Make sure to change the `APIKEY` variable to the one that you got previously from the API dashboard. Now, on your terminal, run:
+```sh
+yarn start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+This should start your local server in [http://localhost:3000/](http://localhost:3000/). To stop it, hit `<CTRL> + C` on your keyboard.
+## Run tests
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+To test the App's components and logic, please, run the following command:
 
-## Learn More
+```sh
+yarn test --watchAll
+```
+Make sure you have properly provided an API key, as explained in the steps above. When the tests are finished, just hit `q` key to leave the watch mode for the tests.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Author
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+👤 **MaiRizk**
 
-### Code Splitting
+- GitHub: [@MaiRizk](https://github.com/MaiRizk)
+- Twitter: [@MaiRizk](https://twitter.com/MaiRizk16)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mai-rizk-252722188/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🤝 Contributing
 
-### Analyzing the Bundle Size
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Feel free to check the [issues page](https://github.com/MaiRizk/my-stocks-watcher-app/issues).
 
-### Making a Progressive Web App
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Give a ⭐️ if you like this project!
 
-### Advanced Configuration
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./LICENSE) licensed.

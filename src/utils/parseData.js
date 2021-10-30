@@ -1,4 +1,3 @@
-/* eslint-disable no-param-reassign */
 import { tsvParse } from 'd3-dsv';
 import { timeParse } from 'd3-time-format';
 

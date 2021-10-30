@@ -11,6 +11,8 @@ Below, I present some screenshots of the app.
 <img style="border: 1px solid black;" src="./docs/Capture-2.PNG" width="700">
 </p>
 
+Also, yoou can check this [vdeo](https://www.loom.com/share/dcd5142de4c2462b9eab7c94f02928fe) as a presentation of the app.
+
 ## Built With
 
 - HTML, CSS, JavaScript;
@@ -19,7 +21,7 @@ Below, I present some screenshots of the app.
 
 ## Live Demo
 
-Live demo for this project can be found in this [link]().
+Live demo for this project can be found in this [link](https://mai-rizk-stocks-watcher.netlify.app/).
 
 ## Getting Started
 
